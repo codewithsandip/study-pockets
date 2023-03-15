@@ -31,17 +31,17 @@ A cheat sheet for Git commands
 
 ## Staged Changes
 
-| Command                       | Description                                                          |
-| ----------------------------- | -------------------------------------------------------------------- | ---------------------------------------- |
-| `git add file.txt`            | Stage file                                                           |
-| `git add -p`                  | --patch file.txt`                                                    | Stage some but not all changes in a file |
-| `git mv file1.txt file2.txt`  | Move/rename file                                                     |
-| `git rm --cached file.txt`    | Unstage file                                                         |
-| `git rm --force file.txt`     | Unstage and delete file                                              |
-| `git reset HEAD`              | Unstage changes                                                      |
-| `git reset --hard HEAD`       | Unstage and delete changes                                           |
-| `git clean -f\|--force -d`    | Recursively remove untracked files from the working tree             |
-| `git clean -f\|--force -d -x` | Recursively remove untracked and ignored files from the working tree |
+| Command | Description |
+| - | - |
+| `git add file.txt`                        | Stage file |
+| `git add -p`|--patch file.txt`            | Stage some but not all changes in a file |
+| `git mv file1.txt file2.txt`              | Move/rename file |
+| `git rm --cached file.txt`                | Unstage file |
+| `git rm --force file.txt`                 | Unstage and delete file |
+| `git reset HEAD`                          | Unstage changes |
+| `git reset --hard HEAD`                   | Unstage and delete changes |
+| `git clean -f\|--force -d`                | Recursively remove untracked files from the working tree |
+| `git clean -f\|--force -d -x`             | Recursively remove untracked and ignored files from the working tree |
 
 ## Changing Commits
 
